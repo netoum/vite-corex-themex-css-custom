@@ -66,6 +66,7 @@ header {
 
 main {
     display: flex;
+    flex-direction: column;
     justify-content: start;
     align-items: center;
     max-width: 48rem;
@@ -79,7 +80,8 @@ main {
 .preview {
     gap: var(--gap-ui);
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .switcher.theme-switcher [data-part="item"][data-state="on"] {

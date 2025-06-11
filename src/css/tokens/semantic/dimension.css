@@ -3,10 +3,6 @@
  */
 
 :root {
-  --ratio-xs: 0.8;
-  --ratio-sm: 0.9;
-  --ratio-lg: 1.2;
-  --ratio-xl: 1.4;
   --height-ui: var(--theme-height-ui);
   --height-ui-sm: var(--theme-height-ui-sm);
   --height-ui-lg: var(--theme-height-ui-lg);
